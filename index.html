@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="script.js" type="module" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/df57a58519.js"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            function toggleTheme() {
+                document.body.classList.toggle("light");
+
+                document
+                    .getElementById("toggle-icon")
+                    .classList.toggle("fa-sun");
+
+                document
+                    .getElementById("toggle-icon")
+                    .classList.toggle("fa-moon");
+            }
+        </script>
+        <title>Wordle</title>
+    </head>
+
+    <body>
+        <div id="root">
+            <div class="navbar">
+                <div
+                    class="icon reload-icon"
+                    title="Reload Wordle"
+                    onclick="location.reload()"
+                >
+                    <i class="fa-solid fa-arrows-rotate fa-2xl"></i>
+                </div>
+
+                <div class="title">
+                    <div class="title-main">Wordle</div>
+                    <div class="subtitle">(fake)</div>
+                </div>
+
+                <div
+                    class="icon toggle-theme__icon"
+                    title="Toggle theme"
+                    onclick="toggleTheme()"
+                >
+                    <i id="toggle-icon" class="fa-solid fa-moon fa-2xl"></i>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+                <div class="char-cell">
+                    <div class="char-cell__inner">
+                        <div class="char-cell__front"></div>
+                        <div class="char-cell__back"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="keyboard">
+                <div class="row alert"></div>
+
+                <div class="row">
+                    <div class="key key-q">q</div>
+                    <div class="key key-w">w</div>
+                    <div class="key key-e">e</div>
+                    <div class="key key-r">r</div>
+                    <div class="key key-t">t</div>
+                    <div class="key key-y">y</div>
+                    <div class="key key-u">u</div>
+                    <div class="key key-i">i</div>
+                    <div class="key key-o">o</div>
+                    <div class="key key-p">p</div>
+                </div>
+
+                <div class="row">
+                    <div class="key key-a">a</div>
+                    <div class="key key-s">s</div>
+                    <div class="key key-d">d</div>
+                    <div class="key key-f">f</div>
+                    <div class="key key-g">g</div>
+                    <div class="key key-h">h</div>
+                    <div class="key key-j">j</div>
+                    <div class="key key-k">k</div>
+                    <div class="key key-l">l</div>
+                </div>
+
+                <div class="row">
+                    <div class="key bigger enter">
+                        <i class="fa-solid fa-arrow-turn-down"></i>
+                    </div>
+                    <div class="key key-z">z</div>
+                    <div class="key key-x">x</div>
+                    <div class="key key-c">c</div>
+                    <div class="key key-v">v</div>
+                    <div class="key key-b">b</div>
+                    <div class="key key-n">n</div>
+                    <div class="key key-m">m</div>
+                    <div class="key bigger backspace">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="popup" class="popup hidden">
+                <div class="popup-inner">
+                    <div class="title">Risultato</div>
+
+                    <div id="popup-word"></div>
+                    <div id="popup-message"></div>
+
+                    <div class="button try-again" onclick="location.reload()">
+                        gioca ancora
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
